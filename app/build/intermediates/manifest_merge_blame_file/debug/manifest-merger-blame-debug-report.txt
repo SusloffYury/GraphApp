@@ -1,0 +1,102 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.graphapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\suslo\AndroidStudioProjects\GraphApp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\suslo\AndroidStudioProjects\GraphApp\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\suslo\AndroidStudioProjects\GraphApp\app\src\main\AndroidManifest.xml:25:5-66
+11-->C:\Users\suslo\AndroidStudioProjects\GraphApp\app\src\main\AndroidManifest.xml:25:22-64
+12
+13    <application
+13-->C:\Users\suslo\AndroidStudioProjects\GraphApp\app\src\main\AndroidManifest.xml:5:5-22:19
+14        android:allowBackup="true"
+14-->C:\Users\suslo\AndroidStudioProjects\GraphApp\app\src\main\AndroidManifest.xml:6:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.0.1] C:\Users\suslo\.gradle\caches\transforms-2\files-2.1\c9abde3d00d5c35e349279d839666d3e\core-1.0.1\AndroidManifest.xml:22:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->C:\Users\suslo\AndroidStudioProjects\GraphApp\app\src\main\AndroidManifest.xml:7:9-43
+18        android:label="@string/app_name"
+18-->C:\Users\suslo\AndroidStudioProjects\GraphApp\app\src\main\AndroidManifest.xml:8:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->C:\Users\suslo\AndroidStudioProjects\GraphApp\app\src\main\AndroidManifest.xml:9:9-54
+20        android:supportsRtl="true"
+20-->C:\Users\suslo\AndroidStudioProjects\GraphApp\app\src\main\AndroidManifest.xml:10:9-35
+21        android:theme="@style/AppTheme" >
+21-->C:\Users\suslo\AndroidStudioProjects\GraphApp\app\src\main\AndroidManifest.xml:11:9-40
+22        <meta-data
+22-->C:\Users\suslo\AndroidStudioProjects\GraphApp\app\src\main\AndroidManifest.xml:12:9-107
+23            android:name="com.facebook.sdk.ApplicationId"
+23-->C:\Users\suslo\AndroidStudioProjects\GraphApp\app\src\main\AndroidManifest.xml:12:20-65
+24            android:value="@string/facebook_app_id" />
+24-->C:\Users\suslo\AndroidStudioProjects\GraphApp\app\src\main\AndroidManifest.xml:12:66-105
+25
+26        <activity android:name="com.example.graphapp.MainActivity" >
+26-->C:\Users\suslo\AndroidStudioProjects\GraphApp\app\src\main\AndroidManifest.xml:13:9-21:20
+26-->C:\Users\suslo\AndroidStudioProjects\GraphApp\app\src\main\AndroidManifest.xml:13:19-47
+27            <intent-filter>
+27-->C:\Users\suslo\AndroidStudioProjects\GraphApp\app\src\main\AndroidManifest.xml:14:13-20:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->C:\Users\suslo\AndroidStudioProjects\GraphApp\app\src\main\AndroidManifest.xml:15:17-69
+28-->C:\Users\suslo\AndroidStudioProjects\GraphApp\app\src\main\AndroidManifest.xml:15:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->C:\Users\suslo\AndroidStudioProjects\GraphApp\app\src\main\AndroidManifest.xml:17:17-77
+30-->C:\Users\suslo\AndroidStudioProjects\GraphApp\app\src\main\AndroidManifest.xml:17:27-74
+31            </intent-filter>
+32        </activity>
+33        <activity
+33-->[com.facebook.android:facebook-common:4.42.0] C:\Users\suslo\.gradle\caches\transforms-2\files-2.1\1789409c698fb8e15b59a795941e18da\jetified-facebook-common-4.42.0\AndroidManifest.xml:29:9-32:66
+34            android:name="com.facebook.FacebookActivity"
+34-->[com.facebook.android:facebook-common:4.42.0] C:\Users\suslo\.gradle\caches\transforms-2\files-2.1\1789409c698fb8e15b59a795941e18da\jetified-facebook-common-4.42.0\AndroidManifest.xml:30:13-57
+35            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+35-->[com.facebook.android:facebook-common:4.42.0] C:\Users\suslo\.gradle\caches\transforms-2\files-2.1\1789409c698fb8e15b59a795941e18da\jetified-facebook-common-4.42.0\AndroidManifest.xml:31:13-96
+36            android:theme="@style/com_facebook_activity_theme" />
+36-->[com.facebook.android:facebook-common:4.42.0] C:\Users\suslo\.gradle\caches\transforms-2\files-2.1\1789409c698fb8e15b59a795941e18da\jetified-facebook-common-4.42.0\AndroidManifest.xml:32:13-63
+37        <activity android:name="com.facebook.CustomTabMainActivity" />
+37-->[com.facebook.android:facebook-common:4.42.0] C:\Users\suslo\.gradle\caches\transforms-2\files-2.1\1789409c698fb8e15b59a795941e18da\jetified-facebook-common-4.42.0\AndroidManifest.xml:33:9-71
+37-->[com.facebook.android:facebook-common:4.42.0] C:\Users\suslo\.gradle\caches\transforms-2\files-2.1\1789409c698fb8e15b59a795941e18da\jetified-facebook-common-4.42.0\AndroidManifest.xml:33:19-68
+38        <activity android:name="com.facebook.CustomTabActivity" />
+38-->[com.facebook.android:facebook-common:4.42.0] C:\Users\suslo\.gradle\caches\transforms-2\files-2.1\1789409c698fb8e15b59a795941e18da\jetified-facebook-common-4.42.0\AndroidManifest.xml:34:9-67
+38-->[com.facebook.android:facebook-common:4.42.0] C:\Users\suslo\.gradle\caches\transforms-2\files-2.1\1789409c698fb8e15b59a795941e18da\jetified-facebook-common-4.42.0\AndroidManifest.xml:34:19-64
+39        <!--
+40         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+41         with the application context. This config is merged in with the host app's manifest,
+42         but there can only be one provider with the same authority activated at any given
+43         point; so if the end user has two or more different apps that use Facebook SDK, only the
+44         first one will be able to use the provider. To work around this problem, we use the
+45         following placeholder in the authority to identify each host application as if it was
+46         a completely different provider.
+47        -->
+48        <provider
+48-->[com.facebook.android:facebook-core:4.42.0] C:\Users\suslo\.gradle\caches\transforms-2\files-2.1\8c7b0ba873437e2c6c54b1bf2eede1c6\jetified-facebook-core-4.42.0\AndroidManifest.xml:39:9-42:40
+49            android:name="com.facebook.internal.FacebookInitProvider"
+49-->[com.facebook.android:facebook-core:4.42.0] C:\Users\suslo\.gradle\caches\transforms-2\files-2.1\8c7b0ba873437e2c6c54b1bf2eede1c6\jetified-facebook-core-4.42.0\AndroidManifest.xml:40:13-70
+50            android:authorities="com.example.graphapp.FacebookInitProvider"
+50-->[com.facebook.android:facebook-core:4.42.0] C:\Users\suslo\.gradle\caches\transforms-2\files-2.1\8c7b0ba873437e2c6c54b1bf2eede1c6\jetified-facebook-core-4.42.0\AndroidManifest.xml:41:13-72
+51            android:exported="false" />
+51-->[com.facebook.android:facebook-core:4.42.0] C:\Users\suslo\.gradle\caches\transforms-2\files-2.1\8c7b0ba873437e2c6c54b1bf2eede1c6\jetified-facebook-core-4.42.0\AndroidManifest.xml:42:13-37
+52
+53        <receiver
+53-->[com.facebook.android:facebook-core:4.42.0] C:\Users\suslo\.gradle\caches\transforms-2\files-2.1\8c7b0ba873437e2c6c54b1bf2eede1c6\jetified-facebook-core-4.42.0\AndroidManifest.xml:44:9-50:20
+54            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+54-->[com.facebook.android:facebook-core:4.42.0] C:\Users\suslo\.gradle\caches\transforms-2\files-2.1\8c7b0ba873437e2c6c54b1bf2eede1c6\jetified-facebook-core-4.42.0\AndroidManifest.xml:45:13-86
+55            android:exported="false" >
+55-->[com.facebook.android:facebook-core:4.42.0] C:\Users\suslo\.gradle\caches\transforms-2\files-2.1\8c7b0ba873437e2c6c54b1bf2eede1c6\jetified-facebook-core-4.42.0\AndroidManifest.xml:46:13-37
+56            <intent-filter>
+56-->[com.facebook.android:facebook-core:4.42.0] C:\Users\suslo\.gradle\caches\transforms-2\files-2.1\8c7b0ba873437e2c6c54b1bf2eede1c6\jetified-facebook-core-4.42.0\AndroidManifest.xml:47:13-49:29
+57                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+57-->[com.facebook.android:facebook-core:4.42.0] C:\Users\suslo\.gradle\caches\transforms-2\files-2.1\8c7b0ba873437e2c6c54b1bf2eede1c6\jetified-facebook-core-4.42.0\AndroidManifest.xml:48:17-95
+57-->[com.facebook.android:facebook-core:4.42.0] C:\Users\suslo\.gradle\caches\transforms-2\files-2.1\8c7b0ba873437e2c6c54b1bf2eede1c6\jetified-facebook-core-4.42.0\AndroidManifest.xml:48:25-92
+58            </intent-filter>
+59        </receiver>
+60    </application>
+61
+62</manifest>
